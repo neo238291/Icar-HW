@@ -75,7 +75,11 @@ function text_match(){
         var video_id="surprise";
         var div_id="charaSurprise";
         play_movie(video_id,div_id);
+    }else  if(~rtnString.indexOf("オタ活したい")){
+        window.open('https://goo.gl/maps/pPWtGkfzTwsydfBUA');
+	    
     }
+    
 }
 //ビデオ再生用関数
 function play_movie(video_id,div_id){
