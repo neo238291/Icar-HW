@@ -76,7 +76,7 @@ function text_match(){
         var div_id="charaSurprise";
         play_movie(video_id,div_id);
     }else  if(~rtnString.indexOf("秋葉原")){
-        window.open('https://goo.gl/maps/pPWtGkfzTwsydfBUA');
+        window.open('https://goo.gl/maps/pPWtGkfzTwsydfBUA', '_blank')
 	    
     }
     
