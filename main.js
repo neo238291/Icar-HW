@@ -75,7 +75,7 @@ function text_match(){
         var video_id="surprise";
         var div_id="charaSurprise";
         play_movie(video_id,div_id);
-    }else  if(~rtnString.indexOf("秋葉原に行きたい")){
+    }else  if(~rtnString.indexOf("オタ活がしたい")){
         window.open('https://goo.gl/maps/pPWtGkfzTwsydfBUA', '_blank')
 	    voiceRec();
 	    
