@@ -77,6 +77,7 @@ function text_match(){
         play_movie(video_id,div_id);
     }else  if(~rtnString.indexOf("秋葉原に行きたい")){
         window.open('https://goo.gl/maps/pPWtGkfzTwsydfBUA', '_blank')
+	    voiceRec();
 	    
     }
     
